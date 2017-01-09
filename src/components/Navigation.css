@@ -1,0 +1,30 @@
+.nav-item.is-brand {
+    font-size: 21px;
+    font-weight: bold;
+    color: #333;
+}
+
+.nav {
+    border-bottom: 2px #44857c solid;
+}
+
+.nav .subtitle.welcome-message {
+    margin-right: 20px;
+    margin-bottom: 0;
+}
+
+.nav-menu .button.rounded {
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 768px) {
+    .Navigation .nav-menu {
+        background-color: white;
+        box-shadow: none;
+        left: 0;
+        display: block;
+        right: 0;
+        top: 0;
+        position: inherit;
+    }
+}

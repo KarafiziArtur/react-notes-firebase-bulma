@@ -1,0 +1,31 @@
+.Note {
+  margin: 15px;
+}
+
+.Note.card {
+  width: 270px;
+}
+
+.Note.card > form {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-header-title > small {
+  margin-top: 2px;
+  margin-left: 10px;
+  color: #a6a6a6
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-content > small {
+  text-align: right;
+}
+
+button.card-footer-item {
+  padding: 0;
+}

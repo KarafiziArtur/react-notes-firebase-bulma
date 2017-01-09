@@ -1,0 +1,13 @@
+.notes {
+  margin-top: 20px;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.preloading {
+  height: 64px;
+  width: 64px;
+  background: url('./loading.gif') no-repeat center center;
+}
